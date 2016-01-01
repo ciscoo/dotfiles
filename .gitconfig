@@ -1,0 +1,5 @@
+[user]
+	name = ciscoo
+	email = cisco@mateo.io
+[push]
+	default = simple
