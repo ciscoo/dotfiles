@@ -26,6 +26,7 @@ TAPS=(
 FORMULAS=(
   git
   optipng
+  groovy
   python3
   screenfetch
   wget
