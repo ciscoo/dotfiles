@@ -13,7 +13,6 @@ export GROOVY_HOME=/usr/local/opt/groovy/libexec
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 source $ZSH/oh-my-zsh.sh
 
-
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
