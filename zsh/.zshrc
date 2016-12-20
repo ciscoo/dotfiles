@@ -7,10 +7,14 @@ DEFAULT_USER="$USER"
 plugins=(git)
 
 # User configuration
+export ANDROID_ADB=/Volumes/Data/android-sdk/platform-tools
+export GOPATH=/Volumes/Data/go
+export COMPOSER_PATH=/Users/cisco/.composer/vendor/bin
 export JAVA_HOME=$(/usr/libexec/java_home)
 export HOMEBREW_GITHUB_API_TOKEN=
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
-source "$HOME/.sdkman/bin/sdkman-init.sh"
+export PATH="$COMPOSER_PATH:$ANDROID_ADB:$PATH:"
+
 source $ZSH/oh-my-zsh.sh
 
 if [[ -n $SSH_CONNECTION ]]; then
@@ -24,3 +28,6 @@ alias c="clear"
 alias cdd="cd /Volumes/Data"
 alias cdg="cd /Volumes/Data/github"
 alias ..="cd .."
+
+export SDKMAN_DIR="/Users/cisco/.sdkman"
+[[ -s "/Users/cisco/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/cisco/.sdkman/bin/sdkman-init.sh"

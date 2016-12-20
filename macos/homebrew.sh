@@ -24,11 +24,21 @@ TAPS=(
 )
 
 FORMULAS=(
+  composer
   git
-  optipng
+  go
+  gradle
   groovy
+  optipng
+  mcrypt
+  mysql
+  node
+  openssl
+  php71
+  php71-mcrypt
   python3
   screenfetch
+  sqlite
   wget
   zsh
 )
@@ -40,20 +50,23 @@ FONTS=(
 )
 
 CASKS=(
+  adobe-creative-cloud
   alfred
-  ccleaner
-  dropbox
+  filezilla
   flux
   google-chrome
   google-drive
   intellij-idea
   iterm2
   java
+  kdiff3
   keka
   postbox
+  sequel-pro
   slack
   sourcetree
   spectacle
+  sqlitebrowser
   visual-studio-code
   vlc
 )

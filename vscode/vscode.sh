@@ -16,9 +16,9 @@ EXTENSIONS=(
   robertohuertasm.vscode-icons
   donjayamanne.python
   lukehoban.Go
-  ms-vscode.PowerShell
   ms-vscode.Theme-MaterialKit
   EditorConfig.EditorConfig
+  formulahendry.code-runner
 )
 
 for ext in ${EXTENSIONS[@]}; do
